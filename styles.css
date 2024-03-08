@@ -1,0 +1,26 @@
+.caja {
+  width: 80%;
+  height: calc(300px * 2);
+  border: 2px solid red;
+  background: radial-gradient(circle at left, orange, red, lightblue);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  line-height: calc(300px * 2);
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 900px;
+  box-shadow: 0px 0px 10px gray;
+  /* skew nos permite torcer un elemento HTML a través de sus ejes en dos dimensiones */
+  /* skewX nos permite torcer un elemento HTML a través de sus ejes en dos dimensiones a nivel horizontal */
+  /* skewY nos permite torcer un elemento HTML a través de sus ejes en dos dimensiones a nivel Vertical */
+  /* scale define una transformación que modifica el tamaño de un elemento en el plano 2D */
+  /* translate nos permite trasladar o desplazar un elemento en sus ejes para darle una nueva posición */
+  /* translateX nos permite trasladar o desplazar un elemento en sus ejes para darle una nueva posición Horizontal */
+  /* translateY nos permite trasladar o desplazar un elemento en sus ejes para darle una nueva posición Vertical */
+  /* rotate nos permite gira un elemento alrededor de un punto fijo en un plano 2D sin deformarlo. */
+  transform: rotate(100deg);
+}
